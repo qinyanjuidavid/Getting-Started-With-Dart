@@ -50,4 +50,18 @@ void MyApp() {
   late List<dynamic> myFloat;
   myFloat = [12, "q"];
   print(myFloat);
+
+  // final - A variable declared as final can be set only once
+  final nme = "Alberto";
+  print(nme);
+  final List<String> friends = ["Jane", "John", "Doe"];
+  print(friends);
+  final String nickName = "Robert";
+  print(nickName);
+
+  void getRandomInteger(n) {
+    print(n);
+  }
+
+  final rand = getRandomInteger(3);
 }
